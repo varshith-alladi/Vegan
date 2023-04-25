@@ -1,0 +1,79 @@
+.s3 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  overflow-x: auto;
+  width: 20%;
+  }
+  hgroup{
+    height: 106px;
+    /* width: 100px; */
+    background-color:rgb(35, 61, 6) ;
+  }
+  hgroup h2{
+    position: relative;
+    top: 20px;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    color: whitesmoke;
+  }
+
+  
+.s3 div.examples,
+  dl,
+  article {
+  flex: 1;
+  text-align: center;
+  width: 70%;
+  background: #fff;
+  padding: 5px;
+  border: 1px solid #bbb;
+  border-radius: 19px;
+  box-shadow: rgba(30, 41, 59, 0.04) 0 2px 4px 0;
+  margin-bottom: 25px;
+  }
+  
+  dt {
+  font-size: 15px;
+  color: #999;
+  }
+  
+  dd {
+  font-size: 35px;
+  margin-left: 0;
+  }
+  
+  
+  hgroup ul {
+  margin-top: 0;
+  }
+  .abc {
+      background-color: rgb(35, 61, 6);
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 10px;
+    }
+    .m2{
+      padding: 0;
+  }
+    .c2{
+      width: 80%;
+      margin-left: 200px;
+      display: grid;
+  }
+  /* menu */
+  .displayu {
+    width: 83%;
+    position: relative;
+    bottom: 459px;
+    left: 210px;
+  }
+  
