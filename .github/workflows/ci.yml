@@ -1,0 +1,19 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  action:
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js 16.14.0
+      uses: actions/setup-node@v1
+      with:
+        node-version: '16.14.0'
+    - run: npm install
+    - run: npm test

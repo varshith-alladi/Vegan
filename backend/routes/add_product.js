@@ -34,7 +34,7 @@ const storage = multer.diskStorage({
 router.post("/products", upload.single('image'),addproduct);
 router.get("/allProducts",getProducts);
 router.get("/allProducts/:id",getP);
-router.post("/allProducts/:id",editP);
+router.put("/allProducts/:id",editP);
 router.delete("/allProducts/:id",delP);
 
 router.post("/contact", addMessage);

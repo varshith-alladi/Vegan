@@ -34,7 +34,7 @@ function handleChange(event) {
 // const { name, email, phonenumber, message } = state;
 const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post(`http://localhost:3001/allProducts/${id}`,{
+    axios.put(`http://localhost:3001/allProducts/${id}`,{
         id:state.id,
         title:state.title,
         desc:state.desc,
