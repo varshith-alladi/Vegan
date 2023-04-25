@@ -18,6 +18,8 @@ var rfs = require('rotating-file-stream')
 const Routes=require("./routes/add_product");
 const helmet=require("helmet");
 const cookieParser = require("cookie-parser");
+const BASE_URL = process.env.BASE_URL
+
 
 // Connecting to database
 app.use(
@@ -47,7 +49,7 @@ const options = {
     },
     servers: [
       {
-        url: "http://localhost:3001"
+        url: "${BASE_URL}"
       }
     ]
   },
